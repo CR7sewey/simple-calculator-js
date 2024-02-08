@@ -51,6 +51,7 @@ function createCalc() {
 
         btnParaDisplay(botao) {
             this.display.value += botao;
+            this.display.focus(); // para ir para o display!!
         },
 
         clearDisplay() {
